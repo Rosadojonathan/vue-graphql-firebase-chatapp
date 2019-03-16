@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "flow",
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "dynamic-import-node",
+    "syntax-async-generators"
+  ]
+}

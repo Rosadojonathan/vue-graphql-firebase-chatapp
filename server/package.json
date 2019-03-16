@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-register-cli": "^5.0.0",
+    "firebase": "^5.9.0",
+    "flow-bin": "^0.95.1",
+    "graphql-yoga": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-syntax-async-generators": "^6.13.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.26.0"
+  }
+}
